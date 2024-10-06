@@ -17,7 +17,7 @@
     width: 420px;
     background-color: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(4px);
     color: #fff;
     border-radius: 15px;
     padding: 30px 40px;
@@ -71,37 +71,38 @@
    text-decoration: none;
 }
 .remember-forgot a:hover{
-    
-    text-decoration: underline;
-    
+     text-decoration: underline;
 }
-.wrapper .btn{
+.wrapper .btn {
+    text-align: center;
     width: 100%;
     height: 45px;
-    background: #fff;
+    background: white;
     border: none;
     border-radius: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     cursor: pointer;
     font-size: 16px;
     color: #000000;
-    font-weight: 600;
+    font-weight: 545;
 }
+
 .btn:hover {
     background-color: transparent; /* Slightly darker shade on hover */
     transform: scale(1.05);
-    box-shadow: 0 0 90px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 }
-.wrapper .register-link{
+.wrapper .back-to-login{
     font: size 14.5px;
     text-align: center;
     margin: 20px 0 15px;
 }
-.register-link p a{
-    color: white;
+.back-to-login p a{
+    color: #fff;
     text-decoration: none;
     font-weight: 600;
 }
-.register-link p a:hover{
+.back-to-login p a:hover{
+    color: black;
     text-decoration: underline;
 }
